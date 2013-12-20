@@ -1,0 +1,13 @@
+diff --git a/../bc-1.06/lib/Makefile.am b/./lib/Makefile.am
+index 6f74b4d..d0c6c17 100644
+--- a/../bc-1.06/lib/Makefile.am
++++ b/./lib/Makefile.am
+@@ -3,7 +3,7 @@ noinst_LIBRARIES = libbc.a
+ 
+ INCLUDES = -I. -I.. -I$(srcdir)/../h
+ 
+-libbc_a_SOURCES = getopt.c getopt1.c vfprintf.c number.c
++libbc_a_SOURCES = vfprintf.c number.c
+ 
+ DEFS = @DEFS@ $(DEFSADD)
+ 
